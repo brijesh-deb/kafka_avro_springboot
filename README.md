@@ -5,3 +5,4 @@ Sample of Kafka with Avro and Springboot
 - To generate corresponding Java file (User.java) use command: 
   - *mvn generate-sources*
 ## Consumer
+- Once avro message is pushed into the topic, the message shows up in Eclipse console
