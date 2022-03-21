@@ -7,7 +7,7 @@ Sample of Kafka with Avro and Springboot
 ## Consumer
 - Once avro message is pushed into the topic, the message shows up in Eclipse console
 ## Run the sample
-- Run kafka, this sample is tested with Confluent Kafka: 
+- Run kafka, this sample is tested with Confluent Kafka 6.2.0: 
     - *export CONFLUENT_HOME=[folder where unzipped]/confluent-6.2.0*
     - *export PATH=$CONFLUENT_HOME/bin:$PATH*
     - *confluent local services start*
