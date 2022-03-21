@@ -11,6 +11,6 @@ Sample of Kafka with Avro and Springboot
     - *export CONFLUENT_HOME=[folder where unzipped]/confluent-6.2.0*
     - *export PATH=$CONFLUENT_HOME/bin:$PATH*
     - *confluent local services start*
-- Run Producer and Consumer as separate applications
+- Run Producer and Consumer as separate SpringBoot applications
 - First run Producer and push message to kafka using PostMan: localhost:9000/kafka/publish7
 - Then run Consumer, the message will show up in console.
